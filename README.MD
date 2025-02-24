@@ -13,3 +13,5 @@ source .venv/bin/activate
 3. Build cli using Python Fire library
     `chmod +x cli-fire.py`
     ` ./cli-fire.py`
+
+4. docke
