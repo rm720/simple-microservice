@@ -5,3 +5,7 @@
 `source .venv/bin/activate`
 
 2. pip freeze | less  
+
+3. Build cli using Python Fire library
+    `chmod +x cli-fire.py`
+    ` ./cli-fire.py`
