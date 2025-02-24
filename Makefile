@@ -4,9 +4,11 @@ install:
 format:
 	black .
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C mylib/*.py
 test:
-	python -m pytest -v test hello.py
+	python -m pytest -vv --cov=mylib test*.py
+build:
+	#build container
 deploy:
 	#deploy commands
 
