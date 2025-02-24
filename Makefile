@@ -24,6 +24,10 @@ run:
 
 deploy:
 	#deploy commands
+	aws ecr get-login-password --region ap-southeast-2 | docker login --username AWS --password-stdin 361769592688.dkr.ecr.ap-southeast-2.amazonaws.com
+	docker build -t simple-microservice .
+	docker tag simple-microservice:latest 361769592688.dkr.ecr.ap-southeast-2.amazonaws.com/simple-microservice:latest
+	docker push 361769592688.dkr.ecr.ap-southeast-2.amazonaws.com/simple-microservice:latest
 
 all: install format lint test deploy
 
