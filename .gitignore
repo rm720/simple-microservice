@@ -1,0 +1,105 @@
+STEPS.MD
+.dockerignore
+
+# Dependencies
+node_modules/
+bower_components/
+jspm_packages/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+.jest/
+__tests__/__snapshots__/
+
+# Cache directories
+.npm/
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+
+# Optional: Python
+*.py[cod]
+__pycache__/
+*.so
+.Python
+env/
+venv/
+.env/
+.venv/
+pip-log.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Optional: Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+target/
+.gradle/
+build/
+
+# Optional: Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Local files
+*.local
+*.local.*
+
+# System Files
+.directory
+.fuse_hidden*
+.Trash-*
+.nfs*
