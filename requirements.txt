@@ -1,2 +1,6 @@
-fastapi
-uvicorn
+wikipedia==1.4.0
+pytest==8.3.4
+pytest-cov==6.0.0
+pylint==2.15.5
+black==22.10.0
+fire==0.7.0

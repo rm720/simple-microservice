@@ -1,11 +1,13 @@
 install:
-	#install commands
+	pip install --no-deps --upgrade pip &&\
+	pip install --no-deps -r requirements.txt
 format:
-	#black or yapf
+	black .
 lint:
-	#flake8 or pylint
+	pylint --disable=R,C hello.py
 test:
-	#pytest
+	python -m pytest -v test hello.py
 deploy:
 	#deploy commands
+
 all: install lint test deploy
