@@ -1,6 +1,6 @@
 install:
-	pip install --no-deps --upgrade pip &&\
-	pip install --no-deps -r requirements.txt
+	pip install --upgrade pip &&\
+	pip install -r requirements.txt
 format:
 	black .
 lint:
